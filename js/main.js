@@ -30,14 +30,37 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const repository = document.querySelector("[data-ecosistema-repository]");
   if (repository) {
-    fetch("data/ecosistema-documentos.json")
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("No se pudo cargar el repositorio.");
-        }
-        return response.json();
-      })
+    // La ruta hacia la raiz del sitio la declara la propia pagina, porque las
+    // paginas viven en html/ y los PDF cuelgan de la raiz.
+    const base = repository.dataset.ecosistemaRepository || "";
+
+    // Los datos llegan por <script> (data/ecosistema-documentos.js) para que el
+    // repositorio tambien se vea al abrir el archivo desde una carpeta; el fetch
+    // del .json queda como respaldo.
+    const source = window.ECOSISTEMA_DOCUMENTOS
+      ? Promise.resolve(window.ECOSISTEMA_DOCUMENTOS)
+      : fetch(base + "data/ecosistema-documentos.json").then((response) => {
+          if (!response.ok) {
+            throw new Error("No se pudo cargar el repositorio.");
+          }
+          return response.json();
+        });
+
+    source
       .then((documents) => {
+        // Los contadores del encabezado salen del propio repositorio, para que
+        // no queden desactualizados cuando se agrega un documento nuevo.
+        const total = document.querySelector("[data-ecosistema-total]");
+        const diferencial = document.querySelector("[data-ecosistema-diferencial]");
+        if (total) {
+          total.textContent = documents.length;
+        }
+        if (diferencial) {
+          diferencial.textContent = documents.filter(
+            (item) => item.source === "Enfoque diferencial"
+          ).length;
+        }
+
         repository.innerHTML = "";
         documents.forEach((documentItem) => {
           const row = document.createElement("article");
@@ -45,12 +68,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
           const thumb = document.createElement("a");
           thumb.className = "knowledge-thumb";
-          thumb.href = encodeURI(documentItem.pdfPath);
+          thumb.href = base + encodeURI(documentItem.pdfPath);
           thumb.target = "_blank";
           thumb.rel = "noopener";
 
           const image = document.createElement("img");
-          image.src = encodeURI(documentItem.thumbPath);
+          image.src = base + encodeURI(documentItem.thumbPath);
           image.alt = `Miniatura de ${documentItem.title}`;
           thumb.appendChild(image);
 
@@ -66,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
           const title = document.createElement("h3");
           const titleLink = document.createElement("a");
-          titleLink.href = encodeURI(documentItem.pdfPath);
+          titleLink.href = base + encodeURI(documentItem.pdfPath);
           titleLink.target = "_blank";
           titleLink.rel = "noopener";
           titleLink.textContent = documentItem.title;

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Figtree:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@700&family=Figtree:wght@400;500;600;700;800&display=swap");
 
 :root {
   --datalogo-green: #1FAE76;
@@ -186,6 +186,13 @@ h3,
   background: #ffffff;
 }
 
+/* Dentro de una seccion con textura, el bloque del titulo no debe pintar un
+   rectangulo blanco encima del grano */
+.policy-resources-section .explore-section,
+.dashboards-section .explore-section {
+  background: transparent;
+}
+
 .explore-section h2,
 .ask-section h2 {
   font-size: clamp(1.9rem, 3.5vw, 3rem);
@@ -327,6 +334,323 @@ h3,
   width: 100%;
 }
 
+/* Esquema del Sistema Distrital de Juventud.
+   Reemplaza la imagen anterior para que el texto sea legible y se pueda leer en
+   celular. Todas las cajas van con fondo oscuro y texto claro: los tonos medios
+   con texto oscuro aplanan el esquema. El sistema usa la gama del verde y las
+   otras instancias el morado de la paleta Distrito Joven. */
+.sdj-schema {
+  --sdj-gap: 26px;
+  --sdj-line: #b9c4c0;
+  --sdj-dark: #2f3e3c;
+  --sdj-green: #2f3e3c;
+  --sdj-green-soft: #14734e;
+  --sdj-purple: #663a93;
+  --sdj-purple-soft: #7a51a0;
+  margin: 1.5rem 0 0;
+}
+
+.sdj-tree {
+  column-gap: var(--sdj-gap);
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: auto auto;
+  row-gap: 14px;
+}
+
+.sdj-group {
+  display: contents;
+}
+
+.sdj-box {
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  font-size: 0.95rem;
+  justify-content: center;
+  line-height: 1.3;
+  margin: 0;
+  padding: 0.75rem 0.9rem;
+  text-align: center;
+}
+
+.sdj-box-root,
+.sdj-box-base {
+  background: var(--sdj-dark);
+  color: #f8f4e1;
+  font-family: "Antonio", "Figtree", Arial, sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.sdj-box-root {
+  grid-column: 1 / 4;
+  grid-row: 1;
+  justify-self: center;
+  min-width: 260px;
+}
+
+.sdj-box-head {
+  background: var(--sdj-green);
+  color: #ffffff;
+  font-family: "Antonio", "Figtree", Arial, sans-serif;
+  font-weight: 700;
+}
+
+.sdj-box-node {
+  background: var(--sdj-green-soft);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.sdj-box-other {
+  background: var(--sdj-purple);
+  color: #ffffff;
+}
+
+.sdj-box-other-node {
+  background: var(--sdj-purple-soft);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.sdj-box-base {
+  align-self: start;
+  grid-column: 1 / 4;
+  grid-row: 8;
+  margin-top: 18px;
+}
+
+.sdj-relation {
+  display: none;
+}
+
+/* Tronco: baja del nodo raiz y se reparte hacia los tres subsistemas */
+.sdj-trunk {
+  grid-column: 1 / 4;
+  grid-row: 2;
+  height: 26px;
+  position: relative;
+}
+
+.sdj-trunk::before,
+.sdj-trunk::after,
+.sdj-trunk span {
+  background: var(--sdj-line);
+  content: "";
+  position: absolute;
+}
+
+.sdj-trunk::before {
+  height: 2px;
+  left: calc((100% - 2 * var(--sdj-gap)) / 6);
+  right: calc((100% - 2 * var(--sdj-gap)) / 6);
+  top: 12px;
+}
+
+.sdj-trunk::after {
+  height: 12px;
+  left: calc(50% - 1px);
+  top: 0;
+  width: 2px;
+}
+
+.sdj-trunk span {
+  bottom: -14px;
+  top: 12px;
+  width: 2px;
+}
+
+.sdj-trunk span:nth-child(1) {
+  left: calc((100% - 2 * var(--sdj-gap)) / 6);
+}
+
+.sdj-trunk span:nth-child(2) {
+  left: calc(50% - 1px);
+}
+
+.sdj-trunk span:nth-child(3) {
+  right: calc((100% - 2 * var(--sdj-gap)) / 6);
+}
+
+.sdj-group-1 > * {
+  grid-column: 1;
+}
+
+.sdj-group-2 > * {
+  grid-column: 2;
+}
+
+.sdj-group-3 > * {
+  grid-column: 3;
+}
+
+.sdj-group-4 > * {
+  grid-column: 4;
+}
+
+.sdj-group > *:nth-child(1) {
+  grid-row: 3;
+}
+
+.sdj-group > *:nth-child(2) {
+  grid-row: 4;
+}
+
+.sdj-group > *:nth-child(3) {
+  grid-row: 5;
+}
+
+.sdj-group > *:nth-child(4) {
+  grid-row: 6;
+}
+
+.sdj-group > *:nth-child(5) {
+  grid-row: 7;
+}
+
+/* Ramas: linea vertical continua y una rama horizontal hacia cada instancia */
+.sdj-box-node,
+.sdj-box-other-node {
+  margin-left: 22px;
+  position: relative;
+}
+
+.sdj-box-node::before,
+.sdj-box-node::after,
+.sdj-box-other-node::before,
+.sdj-box-other-node::after {
+  background: var(--sdj-line);
+  content: "";
+  position: absolute;
+}
+
+.sdj-box-node::before,
+.sdj-box-other-node::before {
+  height: calc(100% + 14px);
+  left: -14px;
+  top: -14px;
+  width: 2px;
+}
+
+.sdj-last::before {
+  height: calc(50% + 14px);
+}
+
+.sdj-box-node::after,
+.sdj-box-other-node::after {
+  height: 2px;
+  left: -14px;
+  top: calc(50% - 1px);
+  width: 14px;
+}
+
+/* Instancias que se articulan con el Espacio Mixto: linea punteada hacia la izquierda */
+.sdj-box-other-node {
+  margin-left: 0;
+}
+
+.sdj-box-other-node::before,
+.sdj-box-other-node::after {
+  display: none;
+}
+
+.sdj-linked::after {
+  display: block;
+}
+
+.sdj-linked::after {
+  background: none;
+  border-top: 2px dashed var(--sdj-line);
+  height: 0;
+  left: calc(-1 * var(--sdj-gap));
+  width: var(--sdj-gap);
+}
+
+@media (max-width: 991.98px) {
+  .sdj-tree {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sdj-group {
+    display: block;
+    margin-top: 18px;
+  }
+
+  /* La barra del Sistema de Información cierra los tres subsistemas; las otras
+     instancias van despues, para no dar a entender que tambien las cubre */
+  .sdj-box-root {
+    order: 0;
+  }
+
+  .sdj-group-1 {
+    order: 1;
+  }
+
+  .sdj-group-2 {
+    order: 2;
+  }
+
+  .sdj-group-3 {
+    order: 3;
+  }
+
+  .sdj-box-base {
+    order: 4;
+  }
+
+  .sdj-group-4 {
+    order: 5;
+  }
+
+  .sdj-box-root,
+  .sdj-box-base {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .sdj-box-node {
+    margin-left: 22px;
+    margin-top: 14px;
+  }
+
+  /* En celular las otras instancias no cuelgan de nada: la articulacion se
+     explica con una linea de texto dentro de la propia caja */
+  .sdj-box-other-node {
+    margin-left: 0;
+    margin-top: 14px;
+  }
+
+  .sdj-box-node,
+  .sdj-box-other-node {
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  .sdj-linked::after {
+    display: none;
+  }
+
+  .sdj-trunk {
+    display: none;
+  }
+
+  .sdj-relation {
+    display: block;
+    font-size: 0.82rem;
+    font-weight: 500;
+    margin-top: 0.2rem;
+    opacity: 0.85;
+  }
+
+  .sdj-box-other-node {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
 .resource-row p {
   text-align: justify;
 }
@@ -387,7 +711,9 @@ h3,
 }
 
 .policy-resources-section {
-  background: var(--datalogo-soft);
+  background-color: #ffffff;
+  background-image: url("../img/patron-blanco.png");
+  background-repeat: repeat;
 }
 
 .resource-row {
@@ -412,7 +738,9 @@ h3,
 }
 
 .dashboards-section {
-  background: var(--datalogo-soft);
+  background-color: #ffffff;
+  background-image: url("../img/patron-blanco.png");
+  background-repeat: repeat;
   padding: clamp(56px, 8vw, 96px) 0;
 }
 
@@ -606,9 +934,16 @@ h3,
 }
 
 .made-with-love {
-  background: var(--datalogo-soft);
+  background-color: #ffffff;
+  background-image: url("../img/patron-blanco.png");
+  background-repeat: repeat;
   color: var(--datalogo-ink);
   padding: 28px 0;
+}
+
+/* En las paginas cuya ultima seccion es blanca, la franja tambien va lisa */
+.made-with-love-liso {
+  background-image: none;
 }
 
 .made-with-love p {
