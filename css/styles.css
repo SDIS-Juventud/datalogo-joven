@@ -511,6 +511,20 @@ h3,
   text-align: justify;
 }
 
+.knowledge-source {
+  color: var(--datalogo-green);
+  display: inline-block;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-top: 0.6rem;
+  text-decoration: none;
+}
+
+.knowledge-source:hover,
+.knowledge-source:focus {
+  text-decoration: underline;
+}
+
 .tag-differential {
   background: var(--datalogo-green);
   border-radius: 999px;

@@ -92,6 +92,16 @@ document.addEventListener("DOMContentLoaded", () => {
           ideas.textContent = documentItem.ideas || "Información pendiente de incorporar.";
           content.appendChild(ideas);
 
+          if (documentItem.sourceUrl) {
+            const sourceLink = document.createElement("a");
+            sourceLink.className = "knowledge-source";
+            sourceLink.href = documentItem.sourceUrl;
+            sourceLink.target = "_blank";
+            sourceLink.rel = "noopener";
+            sourceLink.textContent = "Consulta la publicación original";
+            content.appendChild(sourceLink);
+          }
+
           row.appendChild(thumb);
           row.appendChild(content);
           repository.appendChild(row);
