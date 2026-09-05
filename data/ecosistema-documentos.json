@@ -1,6 +1,17 @@
 [
   {
     "source": "Ecosistema general",
+    "number": "35",
+    "title": "¿Qué sabemos, qué falta y qué sigue? Una agenda para el empleo juvenil en Colombia",
+    "author": "Hub Conexión Juvenil: Fundación Corona y Centro de Valor Público EAFIT (Daniela Mejía Tejada)",
+    "year": "2026",
+    "ideas": "Position paper de la mesa de empleo y emprendimiento del Hub Conexión Juvenil, iniciativa financiada por Fondation Botnar y cofacilitada por la Fundación Corona y el Centro de Valor Público de EAFIT. No presenta un diagnóstico nuevo: sistematiza 16 estudios y documentos técnicos sobre empleo juvenil en Colombia para ordenar qué se sabe, qué falta y qué sigue. Parte de que las personas jóvenes entre 14 y 28 años son cerca de 12 millones, el 23% de la población nacional, con una tasa de desempleo de 15,3% frente a 8,9% del promedio nacional y una informalidad cercana al 56,8%. Sobre lo que ya se sabe, encuentra tres hallazgos: la conexión débil entre educación, orientación, formación e intermediación laboral, que convierte el problema en uno de trayectorias fragmentadas y no solo de falta de vacantes; las desigualdades territoriales, de género, ruralidad, discapacidad y situación migratoria, con departamentos como Guainía y Vaupés por debajo del 11% de cobertura en educación media; y los sesgos de los empleadores frente a la juventud, mientras más del 30% de los jóvenes de 15 años no tiene claridad sobre su trayectoria ocupacional. Dentro del hallazgo sobre desigualdades advierte que el efecto del trabajo de cuidado no remunerado en las trayectorias de las mujeres jóvenes sigue poco estudiado. Sobre lo que falta, señala al menos cinco vacíos: se sabe poco sobre qué intervenciones funcionan de verdad, la salud mental sigue ausente de las rutas laborales, los territorios rurales están subdocumentados, el sector privado aparece más como receptor de talento joven que como co-constructor de oportunidades, y la transformación digital avanza más rápido que las respuestas institucionales. La agenda que propone tiene cinco líneas: construir trayectorias integrales, priorizar calidad y permanencia por encima de la colocación, diseñar respuestas territoriales, integrar bienestar y salud mental, y fortalecer ecosistemas de articulación entre Estado, sector privado, academia y organizaciones juveniles.",
+    "category": "",
+    "pdfPath": "Ecosistema general/2026_FundacionCorona-Que-sabemos-que-falta-y-que-sigue.pdf",
+    "thumbPath": "Ecosistema general/img/2026_FundacionCorona-Que-sabemos-que-falta-y-que-sigue.jpeg"
+  },
+  {
+    "source": "Ecosistema general",
     "number": "34",
     "title": "Espacios para la participación juvenil: recursos relacionales e institucionales en las Casas de Juventud de Bogotá",
     "author": "Universidad de los Andes, semillero NextGenC (coordinación: Friederike Fleischer)",
@@ -41,8 +52,8 @@
     "year": "2026",
     "ideas": "Durante el año 2025, la Secretaría Distrital de Integración Social (SDIS) implementó una metodología de seguimiento participativo a la Política Pública de Juventud. El propósito principal de esta iniciativa, y lo que presenta este documento, son recomendaciones concretas para el fortalecimiento de dicha política tanto a la SDIS, entidad líder de la política, como a las entidades corresponsables de su implementación.",
     "category": "",
-    "pdfPath": "Ecosistema general/2026-SDIS-Resultados-Seguimiento-Participativo-PPDJ.pdf",
-    "thumbPath": "Ecosistema general/img/2026-SDIS-Resultados-Seguimiento-Participativo-PPDJ.jpeg"
+    "pdfPath": "Ecosistema general/2026_SDIS-Resultados-Seguimiento-Participativo-PPDJ.pdf",
+    "thumbPath": "Ecosistema general/img/2026_SDIS-Resultados-Seguimiento-Participativo-PPDJ.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -74,8 +85,8 @@
     "year": "2025",
     "ideas": "Ofrece un análisis integral sobre la situación del empleo juvenil en la región. Desde un enfoque multidimensional, combina datos cuantitativos sobre los principales indicadores laborales con  perspectivas cualitativas obtenidas mediante entrevistas y grupos focales con jóvenes. Asimismo, examina la evolución de las políticas laborales dirigidas a este grupo etario e identifica las brechas persistentes, los desafíos emergentes y las oportunidades para fortalecer las respuestas mediante el diálogo social.",
     "category": "",
-    "pdfPath": "Ecosistema general/2025_Informejuventudencambio2025.pdf",
-    "thumbPath": "Ecosistema general/img/2025_Informejuventudencambio2025.jpeg"
+    "pdfPath": "Ecosistema general/2025_OIT-Juventud-en-cambio-mercado-laboral-ALC.pdf",
+    "thumbPath": "Ecosistema general/img/2025_OIT-Juventud-en-cambio-mercado-laboral-ALC.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -85,8 +96,8 @@
     "year": "2025",
     "ideas": "Busca entender las aspiraciones, prioridades y barreras de la población joven (con datos actualizados), para reconocer las visiones y expectativas sobre el futuro, así como las dificultades que enfrentan para acceder a las oportunidades de educación, empleo y emprendimiento en Bogotá.",
     "category": "",
-    "pdfPath": "Ecosistema general/2025_GOYN-Informe-2023-VF.pdf",
-    "thumbPath": "Ecosistema general/img/2025_GOYN-Informe-2023-VF.jpeg"
+    "pdfPath": "Ecosistema general/2025_GOYN-Informe-2025-VF.pdf",
+    "thumbPath": "Ecosistema general/img/2025_GOYN-Informe-2025-VF.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -107,8 +118,8 @@
     "year": "2024",
     "ideas": "Datos población migrante en Bogotá corte 2024. Proporción de la población por ciclo vital en Bogotá. Necesidades básicas insatisfechas. Salud. Violencias basadas en género.",
     "category": "Población migrante",
-    "pdfPath": "Enfoque diferencial/2024_Unamiradaactualalcontextomigratorioysusdeterminantes.pdf",
-    "thumbPath": "Enfoque diferencial/img/2024_Unamiradaactualalcontextomigratorioysusdeterminantes.jpeg"
+    "pdfPath": "Enfoque diferencial/2024_BancoMundial-Una-mirada-al-contexto-migratorio.pdf",
+    "thumbPath": "Enfoque diferencial/img/2024_BancoMundial-Una-mirada-al-contexto-migratorio.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -118,8 +129,8 @@
     "year": "2024",
     "ideas": "Es una investigación en liderazgo juvenil realizada por el semillero de liderazgo público de la Escuela de Gobierno Alberto Lleras Camargo de la Universidad de los Andes. El estudio se concentró en la experiencia de los consejeros y las consejeras locales de juventud de Bogotá5 y buscó identificar competencias críticas, barreras y facilitadores relacionados con el ejercicio del liderazgo joven.",
     "category": "",
-    "pdfPath": "Ecosistema general/2024_Analisisdelliderazgojuvenil.pdf",
-    "thumbPath": "Ecosistema general/img/2024_Analisisdelliderazgojuvenil.jpeg"
+    "pdfPath": "Ecosistema general/2024_Analisis-del-liderazgo-juvenil-CLJ.pdf",
+    "thumbPath": "Ecosistema general/img/2024_Analisis-del-liderazgo-juvenil-CLJ.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -129,8 +140,8 @@
     "year": "2024",
     "ideas": "Documento de diagnóstico con el cual Probogotá Región lanzó en 2024 ‘Juventud 500’, un programa en el que jóvenes, empresarios y fundaciones dialogan sobre la visión de ciudad bajo principios de cohesión social y corresponsabilidad.",
     "category": "",
-    "pdfPath": "Ecosistema general/2024_Presentacion_Programa_Juventud_500.pdf",
-    "thumbPath": "Ecosistema general/img/2024_Presentacion_Programa_Juventud_500.jpeg"
+    "pdfPath": "Ecosistema general/2024_ProBogota-Presentacion-Programa-Juventud-500.pdf",
+    "thumbPath": "Ecosistema general/img/2024_ProBogota-Presentacion-Programa-Juventud-500.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -151,8 +162,8 @@
     "year": "2024",
     "ideas": "Cifras de víctimas del conflicto armado por ciclo vital (adolescencia y juventud) actualizado a diciembre de 2024.",
     "category": "Víctimas del conflicto armado",
-    "pdfPath": "Enfoque diferencial/2024_Boletin21-DatosparalaPazDiciembre2024.pdf",
-    "thumbPath": "Enfoque diferencial/img/2024_Boletin21-DatosparalaPazDiciembre2024.jpeg"
+    "pdfPath": "Enfoque diferencial/2024_UARIV-Boletin-21-Datos-para-la-Paz.pdf",
+    "thumbPath": "Enfoque diferencial/img/2024_UARIV-Boletin-21-Datos-para-la-Paz.jpeg"
   },
   {
     "source": "Enfoque diferencial",
@@ -162,8 +173,8 @@
     "year": "2024",
     "ideas": "Caracterización sociodemográfica del pueblo Raizal residente en la ciudad de Bogotá. Descripción y análisis de las expresiones socioculturales del pueblo étnico. Perfil epidemiológico del pueblo Raizal radicado en la capital. Conceptos y prácticas propias en salud en la comunidad Raizal.",
     "category": "Pueblo Raizal",
-    "pdfPath": "Enfoque diferencial/2024_AnalisisdeCondicionesCalidaddeVidaSaludyEnfermedaddelaPoblacionRaizalenBogota.pdf",
-    "thumbPath": "Enfoque diferencial/img/2024_AnalisisdeCondicionesCalidaddeVidaSaludyEnfermedaddelaPoblacionRaizalenBogota.jpeg"
+    "pdfPath": "Enfoque diferencial/2024_SDS-Condiciones-de-vida-salud-y-enfermedad-poblacion-raizal.pdf",
+    "thumbPath": "Enfoque diferencial/img/2024_SDS-Condiciones-de-vida-salud-y-enfermedad-poblacion-raizal.jpeg"
   },
   {
     "source": "Enfoque diferencial",
@@ -173,8 +184,8 @@
     "year": "2023",
     "ideas": "Análisis de sesgos de género en el sistema y los operadores de salud a partir de las experiencias de mujeres cisgénero lesbianas y bisexuales en los servicios de salud de Bogotá DC.",
     "category": "Sectores sociales LGBTI",
-    "pdfPath": "Enfoque diferencial/2023_Saludydiversidadsexualexperienciasdemujereslesbianasybisexualescisgenero.pdf",
-    "thumbPath": "Enfoque diferencial/img/2023_Saludydiversidadsexualexperienciasdemujereslesbianasybisexualescisgenero.jpeg"
+    "pdfPath": "Enfoque diferencial/2023_Salud-y-diversidad-sexual-mujeres-lesbianas-y-bisexuales-cisgenero.pdf",
+    "thumbPath": "Enfoque diferencial/img/2023_Salud-y-diversidad-sexual-mujeres-lesbianas-y-bisexuales-cisgenero.jpeg"
   },
   {
     "source": "Enfoque diferencial",
@@ -184,8 +195,8 @@
     "year": "2023",
     "ideas": "Investigación sobre la prevalencia de la homofobia en una muestra de 800 estudiantes escolarizados en la ciudad de bogotá. Recomendaciones para prevenir el acoso por homofobia.",
     "category": "Sectores sociales LGBTI",
-    "pdfPath": "Enfoque diferencial/2023_PrevalenciadehomofobiaenadolescentesdeunainstitucioneducativaenlalocalidaddeSuba.pdf",
-    "thumbPath": "Enfoque diferencial/img/2023_PrevalenciadehomofobiaenadolescentesdeunainstitucioneducativaenlalocalidaddeSuba.jpeg"
+    "pdfPath": "Enfoque diferencial/2023_Prevalencia-de-homofobia-en-adolescentes-en-Suba.pdf",
+    "thumbPath": "Enfoque diferencial/img/2023_Prevalencia-de-homofobia-en-adolescentes-en-Suba.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -195,8 +206,8 @@
     "year": "2023",
     "ideas": "El documento es un boletín temático elaborado por el Observatorio de Convivencia Escolar en colaboración con varias secretarías del Distrito, que analiza la problemática de las maternidades y paternidades tempranas en Bogotá, especialmente en el contexto escolar. A partir de un enfoque intersectorial y en línea con los objetivos del Plan de Desarrollo Distrital 2020-2024, el boletín reflexiona sobre la importancia de promover los derechos sexuales y reproductivos para prevenir embarazos en adolescentes. Incluye un marco normativo y conceptual, un análisis estadístico del fenómeno en distintas localidades y grupos etarios, una exploración de los imaginarios y estereotipos en el entorno escolar, así como una descripción de la oferta institucional existente. Cierra con conclusiones y recomendaciones para fortalecer la educación sexual y transformar percepciones socioculturales desde las instituciones educativas.",
     "category": "",
-    "pdfPath": "Ecosistema general/2023_BOLETINMATERNIDADESYPATERNIDADESTEMPRANAS.pdf",
-    "thumbPath": "Ecosistema general/img/2023_BOLETINMATERNIDADESYPATERNIDADESTEMPRANAS.jpeg"
+    "pdfPath": "Ecosistema general/2023_SED-Maternidades-y-paternidades-tempranas.pdf",
+    "thumbPath": "Ecosistema general/img/2023_SED-Maternidades-y-paternidades-tempranas.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -206,8 +217,8 @@
     "year": "2023",
     "ideas": "Compila la evidencia de las intervenciones de empleo joven en América Latina. La revisión permite sistematizar las conclusiones de esa literatura e identificar cuáles son las áreas que aún falta estudiar. Para ello se realiza una revisión sistemática de las evaluaciones de impacto de empleo joven utilizando un Mapa de Brecha de Evidencia (MBE).",
     "category": "",
-    "pdfPath": "Ecosistema general/2023_Mapabrechasevidencias.pdf",
-    "thumbPath": "Ecosistema general/img/2023_Mapabrechasevidencias.jpeg"
+    "pdfPath": "Ecosistema general/2023_Mapa-de-brechas-de-evidencia-empleo-juvenil.pdf",
+    "thumbPath": "Ecosistema general/img/2023_Mapa-de-brechas-de-evidencia-empleo-juvenil.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -228,8 +239,8 @@
     "year": "2023",
     "ideas": "Análisis bio-psico-socio-cultural del proceso de transito de de género de jóvenes.",
     "category": "Sectores sociales LGBTI",
-    "pdfPath": "Enfoque diferencial/2023_Fluir_psicotrans_una_apuesta_conversacional_sobre_los_sistemas_de_vida_vinculares_de_jovenes_con_experiencia.pdf",
-    "thumbPath": "Enfoque diferencial/img/2023_Fluir_psicotrans_una_apuesta_conversacional_sobre_los_sistemas_de_vida_vinculares_de_jovenes_con_experiencia.jpeg"
+    "pdfPath": "Enfoque diferencial/2023_Fluir-Psicotrans-sistemas-de-vida-vinculares-de-jovenes-trans.pdf",
+    "thumbPath": "Enfoque diferencial/img/2023_Fluir-Psicotrans-sistemas-de-vida-vinculares-de-jovenes-trans.jpeg"
   },
   {
     "source": "Enfoque diferencial",
@@ -239,8 +250,8 @@
     "year": "2023",
     "ideas": "Análisis de factores que influyen en la continuidad de los proyectos educativos de los estudiantes en Sumapaz, considerando aspectos familiares, institucionales y personales.",
     "category": "Ruralidad",
-    "pdfPath": "Enfoque diferencial/2023_FactoresqueincidenenelproyectodevidadelosestudiantesdeuncolegioenSUMAPAZ.pdf",
-    "thumbPath": "Enfoque diferencial/img/2023_FactoresqueincidenenelproyectodevidadelosestudiantesdeuncolegioenSUMAPAZ.jpeg"
+    "pdfPath": "Enfoque diferencial/2023_Proyecto-de-vida-de-estudiantes-de-un-colegio-en-Sumapaz.pdf",
+    "thumbPath": "Enfoque diferencial/img/2023_Proyecto-de-vida-de-estudiantes-de-un-colegio-en-Sumapaz.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -261,8 +272,8 @@
     "year": "2023",
     "ideas": "Profundiza en el diagnóstico de la situación laboral de los jóvenes y realiza un mapeo de las políti_x0002_cas públicas existentes en un conjunto de países socios del BCIE (está Colombia). Una vez consolidado el diagnóstico, se busca aportar recomendaciones en términos de políticas públicas",
     "category": "",
-    "pdfPath": "Ecosistema general/2023_Desafiosyoportunidadesparalainclusionlaboraldelaspersonasjovenesylaredistribuciondeltrabajodecuidados.pdf",
-    "thumbPath": "Ecosistema general/img/2023_Desafiosyoportunidadesparalainclusionlaboraldelaspersonasjovenesylaredistribuciondeltrabajodecuidados.jpeg"
+    "pdfPath": "Ecosistema general/2023_CEPAL-OIT-Inclusion-laboral-joven-y-trabajo-de-cuidados.pdf",
+    "thumbPath": "Ecosistema general/img/2023_CEPAL-OIT-Inclusion-laboral-joven-y-trabajo-de-cuidados.jpeg"
   },
   {
     "source": "Enfoque diferencial",
@@ -272,8 +283,8 @@
     "year": "2022",
     "ideas": "Compilación de las principales actividades realizadas por los miembros de la organización ORFA durante quince años. Contiene testimonios de jóvenes que hacen parte de ORFA en temas relacionados con su identidad cultural como la danza, la música, la lengua nativa, la gastronomía, entre otros.",
     "category": "Pueblo Raizal",
-    "pdfPath": "Enfoque diferencial/2022_QuinceanosdeladiasporadelPuebloRaizalenBogota.pdf",
-    "thumbPath": "Enfoque diferencial/img/2022_QuinceanosdeladiasporadelPuebloRaizalenBogota.jpeg"
+    "pdfPath": "Enfoque diferencial/2022_Diaspora-del-pueblo-raizal-en-Bogota.pdf",
+    "thumbPath": "Enfoque diferencial/img/2022_Diaspora-del-pueblo-raizal-en-Bogota.jpeg"
   },
   {
     "source": "Enfoque diferencial",
@@ -283,8 +294,8 @@
     "year": "2022",
     "ideas": "Construcción de la memoria de jóvenes indígenas Uitoto desplazadas a Bogotá por el conflicto armado.",
     "category": "Víctimas del conflicto armado, Pueblos indígenas",
-    "pdfPath": "Enfoque diferencial/2022_Memoriasubalternizadademujeresjovenesindigenasencontextosurbanos.pdf",
-    "thumbPath": "Enfoque diferencial/img/2022_Memoriasubalternizadademujeresjovenesindigenasencontextosurbanos.jpeg"
+    "pdfPath": "Enfoque diferencial/2022_Memoria-subalternizada-de-mujeres-jovenes-indigenas-urbanas.pdf",
+    "thumbPath": "Enfoque diferencial/img/2022_Memoria-subalternizada-de-mujeres-jovenes-indigenas-urbanas.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -294,8 +305,8 @@
     "year": "2022",
     "ideas": "La memoria recoge la relatoría del 2º Simposio Internacional sobre Juventudes, organizado por la Red de Investigadores en Juventud y el Observatorio Javeriano de Juventud, con aportes de investigadoras e investigadores de México, Chile, Brasil y Colombia. El documento sintetiza debates sobre educación, trabajo juvenil, politicidades, políticas públicas, justicia social, enfoques diferenciales, derechos humanos y construcción de paz, situando las demandas juveniles latinoamericanas en un contexto de desigualdad, movilización social e incertidumbre.",
     "category": "",
-    "pdfPath": "Ecosistema general/2022_Memoria_Simposio_Internacional_Juventudes.pdf",
-    "thumbPath": "Ecosistema general/img/2022_Memoria_Simposio_Internacional_Juventudes.jpeg"
+    "pdfPath": "Ecosistema general/2022_Javeriana-Memoria-Simposio-Internacional-Juventudes.pdf",
+    "thumbPath": "Ecosistema general/img/2022_Javeriana-Memoria-Simposio-Internacional-Juventudes.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -305,8 +316,8 @@
     "year": "2022",
     "ideas": "Este artículo pretende mostrar algunos avances del proyecto de investigación “La implementación de la política pública de juventud: un análisis de las casas de juventud en Bogotá (2012 – 2017)”, el cual intenta mostrar de qué manera aportan las Casas de Juventud a la implementación de la política pública. Entendidas las políticas de juventud como un proceso histórico y cultural que permite reconocer la presencia de nuevos actores juveniles. En la metodología se utilizaron nueve entrevistas grupales y cinco grupos focales como fuentes primarias, también se tomaron como fuentes secundarias documentos institucionales como el proyecto 1116 Distrito Joven y la política de juventud 2006-2016.",
     "category": "",
-    "pdfPath": "Ecosistema general/2022_CDJenBogota.pdf",
-    "thumbPath": "Ecosistema general/img/2022_CDJenBogota.jpeg"
+    "pdfPath": "Ecosistema general/2022_Casas-de-Juventud-en-Bogota.pdf",
+    "thumbPath": "Ecosistema general/img/2022_Casas-de-Juventud-en-Bogota.jpeg"
   },
   {
     "source": "Enfoque diferencial",
@@ -316,8 +327,8 @@
     "year": "2022",
     "ideas": "La vida de las mujeres gitanas en la ciudad de Bogotá y la interacción de los roles de género tradicionales de su cultura con la sociedad colombiana.",
     "category": "Pueblo Rrom/Gitano",
-    "pdfPath": "Enfoque diferencial/2022_LamujerdentrodelaculturagitanaradicadaenBogota-Colombia.pdf",
-    "thumbPath": "Enfoque diferencial/img/2022_LamujerdentrodelaculturagitanaradicadaenBogota-Colombia.jpeg"
+    "pdfPath": "Enfoque diferencial/2022_La-mujer-dentro-de-la-cultura-gitana-en-Bogota.pdf",
+    "thumbPath": "Enfoque diferencial/img/2022_La-mujer-dentro-de-la-cultura-gitana-en-Bogota.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -338,8 +349,8 @@
     "year": "2022",
     "ideas": "En la evaluación de procesos del programa Parceros Cuidando a Bogotá realizado en las localidades de Usaquén, San Cristóbal, Rafael Uribe Uribe, Usme, Ciudad Bolívar, Kennedy, Bosa y Suba con el fin de generar oportunidades para la disminución de la vulnerabilidad y las barreras de acceso en los jóvenes. De esta forma, este documento expone la estructura del programa, analiza la información proveniente de herramientas de investigación e insumos, y finalmente, genera unas conclusiones y recomendaciones orientadas a posibles escenarios de replicabilidad.",
     "category": "",
-    "pdfPath": "Ecosistema general/2022_evaluacion_de_procesos_parceros_cuidando_a_bogota_1.pdf",
-    "thumbPath": "Ecosistema general/img/2022_evaluacion_de_procesos_parceros_cuidando_a_bogota_1.jpeg"
+    "pdfPath": "Ecosistema general/2022_SDG-Evaluacion-de-procesos-Parceros-Cuidando-a-Bogota.pdf",
+    "thumbPath": "Ecosistema general/img/2022_SDG-Evaluacion-de-procesos-Parceros-Cuidando-a-Bogota.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -349,8 +360,8 @@
     "year": "2022",
     "ideas": "Es un documento colectivo que presenta un conjunto de reflexiones e investigaciones sobre las realidades diversas y complejas que viven los y las jóvenes en Brasil, Colombia y Portugal. A través de una mirada crítica y situada, el texto aborda temas como la precarización, los estigmas, los proyectos de vida, la educación, la salud mental, la participación política y la construcción de paz, destacando el papel activo, reflexivo y transformador de las juventudes en contextos marcados por desigualdades, protestas sociales y los efectos de la pandemia. Esta publicación, resultado del trabajo de la Red de Investigadores en Juventud, busca visibilizar las voces juveniles, cuestionar perspectivas adultocéntricas, y proponer rutas para el diseño de políticas públicas más coherentes, participativas y sensibles a las realidades juveniles contemporáneas.",
     "category": "",
-    "pdfPath": "Ecosistema general/2022_Aproximaciones_a_los_Mundos_Juveniles_Di.pdf",
-    "thumbPath": "Ecosistema general/img/2022_Aproximaciones_a_los_Mundos_Juveniles_Di.jpeg"
+    "pdfPath": "Ecosistema general/2022_Javeriana-Aproximaciones-a-los-mundos-juveniles.pdf",
+    "thumbPath": "Ecosistema general/img/2022_Javeriana-Aproximaciones-a-los-mundos-juveniles.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -360,8 +371,8 @@
     "year": "2021",
     "ideas": "La motivación principal de este documento es compartir los principales aprendizajes y recomendaciones que se han recopilado desde diferentes acciones que tienen un énfasis de trabajo en la agenda de juventud, desde la experiencia de la Fundación Corona, la Asociación de Fundaciones Familiares y Empresariales (AFE) y la Global Opportunity Youth Network (GOYN Bogotá), con el apoyo de to- dos los socios y aliados que nos han acompañado en el desarrollo de esta y, con ello, contribuir a tan necesaria conversación nacional. En este documento se recopilan aprendizajes específicos en la agenda de inclusión laboral de la población joven, al tiempo que se reconoce la importancia de otras agendas necesarias en este contexto, como la generación de empleo o la formalización laboral.",
     "category": "",
-    "pdfPath": "Ecosistema general/2021_RecomendacionesPoblacionjovenenColombia.pdf",
-    "thumbPath": "Ecosistema general/img/2021_RecomendacionesPoblacionjovenenColombia.jpeg"
+    "pdfPath": "Ecosistema general/2021_FundacionCorona-Recomendaciones-inclusion-laboral-poblacion-joven.pdf",
+    "thumbPath": "Ecosistema general/img/2021_FundacionCorona-Recomendaciones-inclusion-laboral-poblacion-joven.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -382,8 +393,8 @@
     "year": "2021",
     "ideas": "Discusión interdisciplinar sobre la importancia de la articulación interinstitucional para garantizar el mayor acceso a la educación superior de la población afrodescendiente en Bogotá.",
     "category": "Comunidades negras y afrocolombianas",
-    "pdfPath": "Enfoque diferencial/2021_Lasfallasenlacoordinacioninterinstitucionalenelbajoaccesoalaeducacionsuperiorparalapoblacionafrodescendiente.pdf",
-    "thumbPath": "Enfoque diferencial/img/2021_Lasfallasenlacoordinacioninterinstitucionalenelbajoaccesoalaeducacionsuperiorparalapoblacionafrodescendiente.jpeg"
+    "pdfPath": "Enfoque diferencial/2021_Coordinacion-interinstitucional-y-acceso-a-educacion-superior-afrodescendiente.pdf",
+    "thumbPath": "Enfoque diferencial/img/2021_Coordinacion-interinstitucional-y-acceso-a-educacion-superior-afrodescendiente.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -393,8 +404,8 @@
     "year": "2021",
     "ideas": "Juventudes colombianas: Preocupaciones, intereses y creencias es una investigación de la Fundación SM en colaboración con el Observatorio Javeriano de Juventud. Se trata de una investigación cuantitativa, realizada a partir de una muestra representativa de chicos y chicas entre los 15 y los 29 años que indaga sobre las principales áreas de interés para las juventudes colombianas: marco político y social; visión de las y los jóvenes sobre asuntos importantes; ocupación; uso del tiempo libre; aspectos de la juventud y su auto percepción sobre temas éticos y sobre la justicia de género; religiosidad y migraciones. Adicionando como tema de especial relevancia, la percepción de los y las jóvenes sobre los acuerdos de paz, su implementación y los cambios generados.",
     "category": "",
-    "pdfPath": "Ecosistema general/2021_JUVENTUDES_COLOMBIANAS_PREOCUPACIONES.pdf",
-    "thumbPath": "Ecosistema general/img/2021_JUVENTUDES_COLOMBIANAS_PREOCUPACIONES.jpeg"
+    "pdfPath": "Ecosistema general/2021_Juventudes-colombianas-preocupaciones-intereses-y-creencias.pdf",
+    "thumbPath": "Ecosistema general/img/2021_Juventudes-colombianas-preocupaciones-intereses-y-creencias.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -415,8 +426,8 @@
     "year": "2021",
     "ideas": "Análisis de las dinámicas propias de los pueblos Los Pastos, Yanacona, Wounaan, Nasa, Misak misak y Kamëntšá. El análisis incluye variables como vivienda, educación, salud, identidad, participación ciudadana, percepción del territorio, entre otras.",
     "category": "Pueblos indígenas",
-    "pdfPath": "Enfoque diferencial/2021_CalidaddevidabuenvivirysaludIndigenasenlaciudad.pdf",
-    "thumbPath": "Enfoque diferencial/img/2021_CalidaddevidabuenvivirysaludIndigenasenlaciudad.jpeg"
+    "pdfPath": "Enfoque diferencial/2021_Calidad-de-vida-buen-vivir-y-salud-indigenas-en-la-ciudad.pdf",
+    "thumbPath": "Enfoque diferencial/img/2021_Calidad-de-vida-buen-vivir-y-salud-indigenas-en-la-ciudad.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -437,8 +448,8 @@
     "year": "2020",
     "ideas": "Recuento histórico de la presencia de población gitana en la ciudad de Bogotá. Identificación y análisis de elementos identitarios de la cultura gitana de la ciudad de Bogotá D.C. Concepción que tienen de la educación institucionalizada los Rrom – gitanos y su participación en esta.",
     "category": "Pueblo Rrom/Gitano",
-    "pdfPath": "Enfoque diferencial/2020_LosRrom-gitanosdeBogotaDCunpuebloetnicovisibleenunasociedadinvidente.pdf",
-    "thumbPath": "Enfoque diferencial/img/2020_LosRrom-gitanosdeBogotaDCunpuebloetnicovisibleenunasociedadinvidente.jpeg"
+    "pdfPath": "Enfoque diferencial/2020_Pueblo-Rrom-gitano-de-Bogota-historia-cultura-y-educacion.pdf",
+    "thumbPath": "Enfoque diferencial/img/2020_Pueblo-Rrom-gitano-de-Bogota-historia-cultura-y-educacion.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -448,8 +459,8 @@
     "year": "2020",
     "ideas": "Este artículo tiene como objetivo reflexionar sobre la categoría de jóvenes “NINI” y demostrar, que es una forma de ocultar los problemas sociales a los que se enfrentan por no tener en cuenta las restricciones estructurales que llevan a esa situación. Este escenario se ha convertido en un patrón de desajuste social, donde la falta de experiencia en el trabajo, propicia una situación vulnerable para quienes inician su inserción laboral, que puede dejar una “cicatriz” a lo largo de su vida.",
     "category": "",
-    "pdfPath": "Ecosistema general/2020_LosjovenesNINI.pdf",
-    "thumbPath": "Ecosistema general/img/2020_LosjovenesNINI.jpeg"
+    "pdfPath": "Ecosistema general/2020_Los-jovenes-Ni-Ni.pdf",
+    "thumbPath": "Ecosistema general/img/2020_Los-jovenes-Ni-Ni.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -459,8 +470,8 @@
     "year": "2020",
     "ideas": "El documento analiza la implementación de la Política Pública de Juventud en Bogotá durante el periodo 2012-2017, centrándose en el papel de las Casas de Juventud como espacios clave para promover la participación juvenil y garantizar derechos fundamentales como educación, salud y recreación. Desde un enfoque histórico-hermenéutico y cualitativo, la investigación se basa en revisión documental y entrevistas grupales con gestores territoriales, abordando cómo estos actores inciden en la operativización de la política en el territorio. A lo largo del texto se discute la categorización del concepto de juventud, la importancia de los sistemas de participación, y el rol de los implementadores locales como mediadores entre la política y la realidad de los jóvenes, buscando mostrar los desafíos y posibilidades que enfrenta la política pública en su aplicación práctica.",
     "category": "",
-    "pdfPath": "Ecosistema general/2020_LaPoliticaPublicadeJuventudenBogota.pdf",
-    "thumbPath": "Ecosistema general/img/2020_LaPoliticaPublicadeJuventudenBogota.jpeg"
+    "pdfPath": "Ecosistema general/2020_La-politica-publica-de-juventud-en-Bogota.pdf",
+    "thumbPath": "Ecosistema general/img/2020_La-politica-publica-de-juventud-en-Bogota.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -481,8 +492,8 @@
     "year": "2020",
     "ideas": "Escenarios deportivos como escenarios para el reconocimiento de la identidad cultural de jóvenes afrodescendientes en contextos marcados por fenómenos como el desplazamiento, el desarraigo y la discriminación.",
     "category": "Comunidades negras y afrocolombianas",
-    "pdfPath": "Enfoque diferencial/2020_Contribuciondeldeportesocialalreconocimientodelaidentidadculturaldelosjovenesafrocolombiano.pdf",
-    "thumbPath": "Enfoque diferencial/img/2020_Contribuciondeldeportesocialalreconocimientodelaidentidadculturaldelosjovenesafrocolombiano.jpeg"
+    "pdfPath": "Enfoque diferencial/2020_Deporte-social-e-identidad-cultural-jovenes-afrocolombianos.pdf",
+    "thumbPath": "Enfoque diferencial/img/2020_Deporte-social-e-identidad-cultural-jovenes-afrocolombianos.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -492,8 +503,8 @@
     "year": "2020",
     "ideas": "Busca aportar a la construcción de un panorama del embarazo adolescente en la región. Este primer informe se concentra en mostrar los resultados comparados de los seis primeros estudios de consecuencias socioeconómicas del embarazo adolescente, que fueron implementados en Argentina, Colombia, Ecuador, Guatemala, México y Paraguay. Hace un análisis de los costos sociales del embarazo adolescente para el Estado y para las madres jóvenes.",
     "category": "",
-    "pdfPath": "Ecosistema general/2020_unfpa_consecuencias_en_6_paises_espanol_1.pdf",
-    "thumbPath": "Ecosistema general/img/2020_unfpa_consecuencias_en_6_paises_espanol_1.jpeg"
+    "pdfPath": "Ecosistema general/2020_UNFPA-Consecuencias-socioeconomicas-embarazo-adolescencia.pdf",
+    "thumbPath": "Ecosistema general/img/2020_UNFPA-Consecuencias-socioeconomicas-embarazo-adolescencia.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -503,8 +514,8 @@
     "year": "2019",
     "ideas": "Este documento hace un balance de la investigación sobre juventud en Colombia que se ha hecho en este siglo y de las fuentes de información disponibles para el análisis de problemas que afectan a la juventud. El documento se centra en temas relevantes sobre el bienestar presente y futuro de los jóvenes: demografía, pobreza y desigualdad, educación, trabajo, salud, conflicto y crimen, salud mental y emocional, participación política.",
     "category": "",
-    "pdfPath": "Ecosistema general/2019_Estadodelartedeinvestigacionsobrejuventud.pdf",
-    "thumbPath": "Ecosistema general/img/2019_Estadodelartedeinvestigacionsobrejuventud.jpeg"
+    "pdfPath": "Ecosistema general/2019_Estado-del-arte-investigacion-sobre-juventud.pdf",
+    "thumbPath": "Ecosistema general/img/2019_Estado-del-arte-investigacion-sobre-juventud.jpeg"
   },
   {
     "source": "Enfoque diferencial",
@@ -514,8 +525,8 @@
     "year": "2019",
     "ideas": "Puatas y mecanismos de prevención, protección y seguridad de la población en reincorporación.",
     "category": "Población reincorporada",
-    "pdfPath": "Enfoque diferencial/2019_CartilladePrevencionySeguridad.pdf",
-    "thumbPath": "Enfoque diferencial/img/2019_CartilladePrevencionySeguridad.jpeg"
+    "pdfPath": "Enfoque diferencial/2019_ARN-Cartilla-de-prevencion-y-seguridad.pdf",
+    "thumbPath": "Enfoque diferencial/img/2019_ARN-Cartilla-de-prevencion-y-seguridad.jpeg"
   },
   {
     "source": "Ecosistema general",
@@ -525,7 +536,7 @@
     "year": "2013",
     "ideas": "El informe está organizado en cuatro partes que resumen los hallazgos de la Evaluación de la Política Pública de Juventud en Bogotá. La primera parte presenta un diagnóstico de la situación de los jóvenes, combinando datos estadísticos de encuestas oficiales y percepciones recogidas en talleres participativos. La segunda analiza políticas implícitas que, aunque no diseñadas específicamente para juventud, impactan sus condiciones y derechos, destacando avances y retrocesos en su reconocimiento como actores sociales. La tercera parte recoge los aportes de los jóvenes a la política pública mediante talleres y una encuesta virtual, enfocándose en su conocimiento, evaluación y propuestas de mejora. Finalmente, la cuarta sección ofrece recomendaciones para fortalecer la política y su institucionalidad, basadas en la experiencia del equipo evaluador y expertos consultados.",
     "category": "",
-    "pdfPath": "Ecosistema general/2013_Evaluacion_participativa_ppj.pdf",
-    "thumbPath": "Ecosistema general/img/2013_Evaluacion_participativa_ppj.jpeg"
+    "pdfPath": "Ecosistema general/2013_SDP-Evaluacion-participativa-PPJ.pdf",
+    "thumbPath": "Ecosistema general/img/2013_SDP-Evaluacion-participativa-PPJ.jpeg"
   }
 ]
