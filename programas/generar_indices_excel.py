@@ -22,6 +22,11 @@ from openpyxl.utils import get_column_letter
 
 raiz = Path(__file__).resolve().parent.parent
 
+# El campo "source" del JSON es la etiqueta que clasifica el documento; la carpeta
+# en disco va sin espacios ni mayusculas para que ningun servidor la reescriba.
+CARPETAS = {"Ecosistema general": "ecosistema-general",
+            "Enfoque diferencial": "enfoque-diferencial"}
+
 # (encabezado, campo del JSON, ancho de la columna)
 COLUMNAS_COMUNES = [
     ("No.", "number", 6),
@@ -36,9 +41,9 @@ COLUMNAS_FINALES = [
 ]
 
 
-def _escribir(carpeta, fichas):
+def _escribir(etiqueta, fichas):
     columnas = list(COLUMNAS_COMUNES)
-    if carpeta == "Enfoque diferencial":
+    if etiqueta == "Enfoque diferencial":
         columnas.append(COLUMNA_CATEGORIA)
     columnas += COLUMNAS_FINALES
 
@@ -62,7 +67,7 @@ def _escribir(carpeta, fichas):
 
     ws.freeze_panes = "A2"                      # el encabezado queda fijo al bajar
     ws.auto_filter.ref = ws.dimensions
-    ruta = raiz / carpeta / "Indice.xlsx"
+    ruta = raiz / CARPETAS[etiqueta] / "Indice.xlsx"
     wb.save(ruta)
     return ruta, len(fichas)
 
@@ -72,9 +77,9 @@ def generar():
     documentos = json.loads(
         (raiz / "data" / "ecosistema-documentos.json").read_text(encoding="utf-8"))
     resumen = []
-    for carpeta in ("Ecosistema general", "Enfoque diferencial"):
-        fichas = [d for d in documentos if d["source"] == carpeta]
-        _escribir(carpeta, fichas)
+    for etiqueta, carpeta in CARPETAS.items():
+        fichas = [d for d in documentos if d["source"] == etiqueta]
+        _escribir(etiqueta, fichas)
         sin_numero = sum(1 for d in fichas if not str(d.get("number", "")).strip())
         aviso = f"  ({sin_numero} sin consecutivo)" if sin_numero else ""
         resumen.append(f"{carpeta}/Indice.xlsx: {len(fichas)} documentos{aviso}")
