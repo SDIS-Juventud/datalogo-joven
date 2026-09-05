@@ -853,6 +853,26 @@ h3,
   text-decoration: underline;
 }
 
+/* Cierre de la seccion de instancias: una linea de contacto sin caja. La
+   separacion es de espacio y no de filete, porque un filete de ancho completo
+   debajo de las tarjetas lee como el borde de una tarjeta vacia mas */
+.instancias-contacto {
+  color: var(--datalogo-muted);
+  font-size: 1.05rem;
+  margin: 2.75rem 0 0;
+}
+
+.instancias-contacto a {
+  color: var(--datalogo-green);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.instancias-contacto a:hover,
+.instancias-contacto a:focus {
+  text-decoration: underline;
+}
+
 .tag-differential {
   background: var(--datalogo-green);
   border-radius: 999px;
